@@ -101,6 +101,9 @@ def main():
             )
         else:
             st.warning("⚠️ Por favor, ingresa un texto o enlace.")
+
+    # Pie de página centrado con copyright
+    st.markdown('<br><br><div align="center">© 2024 Jesús Eduardo Uriarte Avelar. Todos los derechos reservados.</div>', unsafe_allow_html=True)
     
 if __name__ == "__main__":
     main()
